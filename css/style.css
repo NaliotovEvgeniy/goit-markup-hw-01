@@ -13,7 +13,7 @@
     text-transform: uppercase;
     color: #4d5ae5
 }
-.scpart {
+.sppart {
     color: #2e2f42
 }
 .list {
@@ -111,4 +111,25 @@
 }
 .teamlist {
     background-color: #FFFFFF;
+}
+.footer {
+    background-color: #2e2f42;
+}
+.logo-type-second {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+
+}
+.sppart-second {
+    color: #f4f4fd;
+}
+.footerparagraf {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
 }
