@@ -69,3 +69,14 @@
 .button:focus {
     background-color: #404BBF;
 }
+.secondlist {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.secondlist:hover {
+    color: #404bbf;
+}
+.secondlist:focus {
+    color: #404bbf;
+}
