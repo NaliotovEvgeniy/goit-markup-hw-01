@@ -126,12 +126,21 @@ img {
     
 }
 h2.visually-hidden
+
+.thirdscroll {
+    display: flex;
+    gap: 24px;
+}
+.listtwo {
+    width: calc((100% - 72px) / 4);
+}
 .t-two {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .firstparagraf {
     line-height: 1.5;
