@@ -117,7 +117,7 @@ img {
 .secondlist:focus {
     color: #404bbf;
 }
-.visually-hidden {
+/* .visually-hidden {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -126,7 +126,7 @@ img {
     visibility: hidden;
     
 }
- 
+  */
 
 .thirdscroll {
     display: flex;
