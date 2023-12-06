@@ -164,10 +164,16 @@ a {
     text-align: center;
     margin-bottom: 8px;
 }
-.firstparagraf {
+/* .firstparagraf {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
+} */
+.firstparagraf {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 .sectionthird {
     background-color: #F4F4FD;
