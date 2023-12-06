@@ -203,12 +203,10 @@ a {
 }
 .teamlist {
     background-color: #FFFFFF;
-    
+    border-radius: 0px 0px 4px 4px;
     
 }
 .picture {
-    
-    border-radius: 0px 0px 4px 4px;
     width: 264px;
 }
 .listcontainer {
