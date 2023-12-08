@@ -254,6 +254,7 @@ a {
 }
 .footer {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 .logo-type-second {
     font-family: "Raleway", sans-serif;
@@ -263,7 +264,8 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .sppart-second {
     color: #f4f4fd;
@@ -272,4 +274,5 @@ a {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    max-width: 264px
 }
