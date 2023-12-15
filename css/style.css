@@ -31,8 +31,7 @@ a {
 .spisoc {
     display: flex;;
     align-items: center;
-    position: relative;
-    color: #404bbf;
+    
 }
 .logo-type {
     font-family: "Raleway", sans-serif;
@@ -61,9 +60,10 @@ a {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    /* color: #2e2f42; */
     padding: 24px 0;
-
+    position: relative;
+    color: #404bbf;
 }
 .list:hover {
     color: #404bbf;
