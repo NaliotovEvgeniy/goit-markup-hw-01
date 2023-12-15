@@ -72,6 +72,15 @@ a {
 .list:focus {
     color: #404bbf;
 }
+.list::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+}
 .adress {
     font-style: normal;
     line-height: 1.5;
