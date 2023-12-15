@@ -31,6 +31,8 @@ a {
 .spisoc {
     display: flex;;
     align-items: center;
+    position: relative;
+    color: #404bbf;
 }
 .logo-type {
     font-family: "Raleway", sans-serif;
@@ -39,10 +41,9 @@ a {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    /* color: #4d5ae5; */
+    color: #4d5ae5;
     margin-right: 76px;
-    position: relative;
-    color: #404bbf;
+    
 }
 /* ::after */
 .firstscroll {
