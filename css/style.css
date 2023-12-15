@@ -267,7 +267,7 @@ a {
     height: 40px;
 
 }
-.icons-popular-network {
+.link-popular-network {
     width: 100%;
     height: 100%;
     background-color: #4d5ae5;
@@ -277,8 +277,11 @@ a {
     justify-content: center;
 
 }
-.icons-popular-network:hover, .icons-popular-network:focus {
+.link-popular-network:hover, .link-popular-network:focus {
     background-color: #404bbf;
+}
+.icons-popular-network {
+    fill: #f4f4fd;
 }
 .listcontainer {
     padding: 32px 0;
