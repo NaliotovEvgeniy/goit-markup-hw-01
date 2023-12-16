@@ -364,6 +364,13 @@ a {
 .sppart-second {
     color: #f4f4fd;
 }
+.container-footer {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    align-items: baseline;
+}
 .footerparagraf {
     line-height: 1.5;
     letter-spacing: 0.02em;
