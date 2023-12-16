@@ -365,13 +365,14 @@ a {
     color: #f4f4fd;
 }
 .container-footer {
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
+    
     display: flex;
     align-items: baseline;
 }
 .block-footer {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
     margin-right: 120px
 }
 .footerparagraf {
