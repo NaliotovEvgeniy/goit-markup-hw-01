@@ -529,7 +529,7 @@ li:hover p {
 .modal-icons:hover, .modal-icons:focus {
     fill: #ffffff
 }
-.modal-paragraf{
+/* .modal-paragraf{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -565,4 +565,4 @@ li:hover p {
 }
 .input-field:focus {
     border-color: #4D5AE5;
-}
+} */
