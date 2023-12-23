@@ -438,3 +438,9 @@ li:hover p {
     letter-spacing: 0.02em;
     color: #ffffff;
 }
+.forms {
+    display: flex;
+    gap: 24px;
+}
+
+    
