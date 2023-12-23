@@ -629,3 +629,6 @@ li:hover p {
     border: none;
     fill: #F4F4FD;
 }
+.footer-checkbox-link {
+    color: #4d5ae5;
+}
