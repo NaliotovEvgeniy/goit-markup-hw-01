@@ -523,13 +523,13 @@ li:hover p {
     border: none;
     
 }
-/* .modal-icons {
+.modal-icons {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-icons:hover, .modal-icons:focus {
     fill: #ffffff
 } */
-/* .modal-paragraf{
+.modal-paragraf{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -565,4 +565,4 @@ li:hover p {
 }
 .input-field:focus {
     border-color: #4D5AE5;
-} */
+}
