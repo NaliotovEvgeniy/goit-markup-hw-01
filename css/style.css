@@ -481,9 +481,7 @@ li:hover p {
 .subsribe-footer-icons {
     margin-left: 16px;
 }
-.container-modal-window::backdrop  {
 
-}
 .container-modal-window {
     position: fixed;
     top: 0;
