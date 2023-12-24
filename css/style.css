@@ -17,7 +17,7 @@ p {
 ul {
     margin: 0;
     padding: 0;
-    list-style-type: none;
+    list-style: none;
 }
 img {
     display: block;
@@ -27,7 +27,9 @@ a {
     text-decoration: none;
     
 }
-
+::after {
+    width: 100%
+}
 .header {
     border-bottom: 1px solid #e7e9fc;
     display: flex;
@@ -145,6 +147,7 @@ a {
     color: #ffffff;
     max-width: 496px;
     margin: auto;
+    margin-bottom: 48px;
 }
 .button {
     background-color: #4D5AE5;
@@ -364,7 +367,7 @@ li:hover p {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
+    
 }
 .footer {
     background-color: #2e2f42;
@@ -433,6 +436,9 @@ li:hover p {
 .footer-icons {
     fill: #f4f4fd;
 }
+.container-form {
+    margin-left: 100px;
+}
 .paragraf-form {
     margin-bottom: 16px;
     font-weight: 500;
@@ -492,7 +498,7 @@ li:hover p {
     height: 100%;
     background-color: rgba(46, 47, 66, 0.4);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
+    visibility: hidden;
 }
 
 .modal-window {
