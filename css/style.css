@@ -32,12 +32,11 @@ a {
 }
 .header {
     border-bottom: 1px solid #e7e9fc;
-    display: flex;
+    /* display: flex; */
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .container {
     max-width: 320px;
-    
     padding-left: 16px;
     padding-right: 16px;
     margin-left: auto;
@@ -263,39 +262,24 @@ a {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.ourteam {
-    font-family: Roboto;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 40px;
-    letter-spacing: 0.02em;
-    text-align: center;
-    /* font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-    margin-bottom: 72px; */
-}
+
 .secondparagraf {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     text-align: center;
+    gap: 8px;
 }
 .sectionthird {
     background-color: #F4F4FD;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 120px 0;
     /* padding: 120px 0; */
 
 }
 @media screen and (min-width: 768px) {
     .sectionthird {
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding: 120px 0;;
     }
 }
 
@@ -305,23 +289,93 @@ a {
         
     }
 }
+.ourteam {
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 72px;
+    /* font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+    text-align: center; */
+}
 
+@media only screen and (min-width: 768px) {
+    .ourteam {
+        
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1158px) {
+    .ourteam {
+        text-align: center;
+
+
+
+
+
+    }
+}
 .forthscroll {
     display: flex;
+    flex-wrap: wrap;
     gap: 24px;
     padding: 0;
     margin: 0;
 }
 .teamlist {
-    width: calc((100% - 72px) / 4);
+    /* width: 100%; */
+    /* max-width: 288px; */
+    /* width: calc((100% - 72px) / 4); */
+    text-align: center;
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     
 }
+@media screen and (min-width: 768px) {
+    .teamlist {
+        width: calc((100% - 72px) / 2);
+    }
+
+
+}
+@media screen and (min-width: 1158px) {
+    .teamlist {
+        width: calc((100% - 72px) / 4);
+    }
+
+
+}
 .picture {
-    width: 264px;
+    width: 288px;
     
+}
+@media screen and (min-width: 768px) {
+    .picture {
+        width: 332px;
+    }
+
+
+}
+
+@media screen and (min-width: 1158px) {
+    .picture {
+        width: 264px;
+    }
+
+
 }
 .social-networks {
     display: flex;
