@@ -225,12 +225,58 @@ a {
 
 .thirdscroll {
     display: flex;
+    flex-wrap: wrap;
     gap: 24px;
     padding: 0;
     margin: 0;
+    justify-content: center;
 }
 .listtwo {
-    width: calc((100% - 72px) / 4);
+    width: 288px;
+    /* display: flex;
+    width: 288px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px; */
+    /* width: calc((100% - 72px) / 4); */
+}
+@media screen and (min-width: 768px) {
+    .listtwo {
+        width: calc((100% - 72px) / 2);
+    }
+}
+@media screen and (min-width: 1158px) {
+    .listtwo {
+        width: calc((100% - 72px) / 4);
+    }
+}
+.icons-in-section-two {
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    
+}
+@media screen and (min-width: 768px) {
+    .icons-in-section-two {
+        visibility: hidden;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .icons-in-section-two {
+        visibility: visible;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 112px;
+        background-color: #f4f4fd;
+        border-radius: 4px;
+        margin-bottom: 8px;
+    }
 }
 .icons {
     display: flex;
@@ -242,6 +288,7 @@ a {
     margin-bottom: 8px;
     
 }
+
 .t-two {
     font-weight: 500;
     font-size: 20px;
@@ -333,6 +380,7 @@ a {
     gap: 24px;
     padding: 0;
     margin: 0;
+    justify-content: center;
 }
 .teamlist {
     /* width: 100%; */
@@ -432,17 +480,51 @@ a {
     row-gap: 48px;
     padding: 0;
     margin: 0;
+    justify-content: center;
 }
 
 .portfoliolist {
-    width: calc((100% - 48px) / 3);
+    /* width: calc((100% - 48px) / 3); */
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media screen and (min-width: 768px) {
+    .portfoliolist {
+        width: calc((100% - 48px) / 2);
+    }
+
+
+}
+@media screen and (min-width: 1158px) {
+    .portfoliolist {
+        width: calc((100% - 48px) / 3);
+    }
+
+
 }
 .portfoliolist:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     
 }
+.portfolio-images {
+    width: 288px;
+    height: 280px;
+}
+@media screen and (min-width: 768px) {
+    .portfolio-images {
+        width: 356px;
+        height: 300px;
+    }
 
+
+}
+@media screen and (min-width: 1158px) {
+    .portfolio-images {
+        width: 360px;
+        flex-shrink: 0;
+    }
+
+
+}
 .image-container {
     position: relative;
     overflow: hidden;
