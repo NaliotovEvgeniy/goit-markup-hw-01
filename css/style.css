@@ -718,6 +718,7 @@ li:hover p {
     .footer-container {
         display: flex;
         flex-wrap: wrap;
+        gap: 72px 24px;
     }
 }
 
@@ -818,7 +819,7 @@ li:hover p {
     fill: #f4f4fd;
 }
 
-.container-form {
+. {
     /* margin-left: 100px; */
     
 }
@@ -838,6 +839,13 @@ li:hover p {
     flex-wrap: wrap;
     gap: 16px 24px;
     justify-content: center;
+}
+@media only screen and (min-width: 768px) {
+    .container-form {
+        flex-wrap: nowrap;
+        max-width: 453px;
+        width: 100%;
+    }
 }
 .sticker {
     width: 100%;
@@ -878,10 +886,11 @@ li:hover p {
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
-    letter-spacing: 0.64em;
+    /* letter-spacing: 0.02em; */
     height: 40px;
-    /* 
     min-width: 165px;
+    /* 
+    
     height: 40px;
     display: flex; */
     /* justify-content: center; */
