@@ -696,6 +696,7 @@ li:hover p {
         text-align: center;
     }
 }
+.footer
 .logo-type-second {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -706,12 +707,28 @@ li:hover p {
     color: #4d5ae5;
     display: inline-block;
     margin-bottom: 16px;
-    
+    display: block;
+}
+@media only screen and (min-width: 768px) and (max-width: 1199.98px) {
+    .footer-container {
+        padding: 0 108px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 @media only screen and (max-width: 767.98px) {
     .block-footer {
         margin-bottom: 72px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .block-footer {
+        max-width: 264px;
     }
 }
 @media only screen and (max-width: 767.98px) {
@@ -730,14 +747,18 @@ li:hover p {
     color: #f4f4fd;
 }
 
-.container-footer {
-    width: 320px;
+/* .container-footer {
+    width: 375px;
     margin: 0 auto;
     padding: 0 15px;
-    /* display: flex; */
+    display: flex;
     align-items: baseline;
-}
-
+} 
+@media only screen and (min-width: 768px) {
+    .container-footer {
+        max-width: 736px;
+    }
+}  */
 .block-footer {
     /* margin: auto; */
     /* margin-right: 120px; */
@@ -750,7 +771,7 @@ li:hover p {
     letter-spacing: 0.02em;
     color: #F4F4FD;
     /* max-width: 264px; */
-    
+    text-align: left;
 }
 
 
@@ -815,10 +836,17 @@ li:hover p {
 .place-post {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 16px 24px;
     justify-content: center;
 }
-
+.sticker {
+    width: 100%;
+}
+@media only screen and (min-width: 768px) {
+    .sticker {
+        max-width: 264px;
+    }
+}
 .e-mail {
     width: 100%;
     height: 40px;
@@ -835,26 +863,35 @@ li:hover p {
 
 }
 
-.placegolder {
+.placeholder {
     color: #ffffff;
 }
 
 .subscribe-button {
-    min-width: 165px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
+    
+    padding: 8px 24px;
+    border-radius: 4px;
+    background-color: #4D5AE5;
     align-items: center;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
+    font-style: normal;
     font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
+    line-height: 24px;
+    letter-spacing: 0.64em;
+    height: 40px;
+    /* 
+    min-width: 165px;
+    height: 40px;
+    display: flex; */
+    /* justify-content: center; */
+    
+    
     color: #ffffff;
     cursor: pointer;
-    background-color: #4D5AE5;
+    
     border: none;
-    border-radius: 4px;
+    
 }
 
 .subsribe-footer-icons {
